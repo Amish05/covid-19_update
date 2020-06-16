@@ -19,6 +19,8 @@ hello friends my name is Amish Ali and I write a program in python which gets yo
 You can also:
   - Get covid-19 update as a screenshot and save it in your computer.
   - It ask you for taking other country information by running only one time progarm
+ # Demo
+ ![covid-19 PK](https://user-images.githubusercontent.com/63059501/84765548-e80c7900-afbe-11ea-8479-62fbc5e2eebb.png)
  
 # MOUDEL USED IN PROGRAM:
 | MOUDEL | INSTALL |
