@@ -22,16 +22,13 @@ def due_to_internet():
     import time
     time.sleep(10) #code Sleep for 10 seconds
 def screenshot():
-    """
+   """
     This function is used to save the screenshot
     """
-    import os # import os for remove the existing file
-    #pip install Pillow pyscreenshot
-    import pyscreenshot as ImageGrab # for taking screenshot
-    filename="covid-19 "+country+".png"
-    im = ImageGrab.grab(backend="mss", childprocess=False)
-    if os.path.exists(filename):
-        os.remove(filename)
+ # for taking screenshot
+    localtime = time.asctime( time.localtime(time.time()) )
+    filename=f"covid-19 {country} {localtime}.png"
+    im = ImageGrab.grab(backend="mss", childprocess=False)    
     im.save(filename)
 def scroll_down():
     """
